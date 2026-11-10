@@ -1,0 +1,10 @@
+{
+    "name": "mini-taskflow",
+    "private": true,
+    "scripts": {
+        "sass": "sass --watch --no-source-map scss/main.scss:css/main.css"
+    },
+    "devDependencies": {
+        "sass": "^1.77.8"
+    }
+}

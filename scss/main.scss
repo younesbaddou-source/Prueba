@@ -1,0 +1,27 @@
+@import 'variables';
+
+
+.body{
+    color:$colorPrincipal;
+    background-color: $colorFondo;
+}
+.header{
+    color:$colorTexto;
+    h1{
+        font-size: 24px;
+    }
+
+}
+.tarea{
+    
+    width: 50%;
+    padding: 5px ;
+    background-color: white;
+    border-radius: $radioBorde;
+    h2{
+        color:$colorTexto;
+    }
+    p{
+        color:$colorPrincipal;
+    }
+}   
