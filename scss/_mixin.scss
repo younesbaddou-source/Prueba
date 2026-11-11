@@ -1,6 +1,7 @@
 @mixin tarjeta($fondo: white){
     width: 50%;
-    padding: 5px ;
+    margin: espacio(1) ;
+    padding: espacio(2);
     background-color:$fondo;
     border-radius: $radioBorde;
     h2{
