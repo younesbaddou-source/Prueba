@@ -1,0 +1,12 @@
+@mixin tarjeta($fondo: white){
+    width: 50%;
+    padding: 5px ;
+    background-color:$fondo;
+    border-radius: $radioBorde;
+    h2{
+        color:$colorTexto;
+    }
+    p{
+        color:$colorPrincipal;
+    }
+}

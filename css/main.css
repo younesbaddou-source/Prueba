@@ -22,3 +22,16 @@
 .tarea p {
   color: rgb(47, 255, 0);
 }
+
+.aviso {
+  width: 50%;
+  padding: 5px;
+  background-color: yellow;
+  border-radius: 10px;
+}
+.aviso h2 {
+  color: blue;
+}
+.aviso p {
+  color: rgb(47, 255, 0);
+}
