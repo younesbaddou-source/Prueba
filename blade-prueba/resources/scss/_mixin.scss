@@ -1,0 +1,21 @@
+@mixin tarjeta($fondo: white) {
+    width: 50%;
+    margin: espacio(1);
+    padding: espacio(2);
+    background-color: $fondo;
+    border-radius: $radioBorde;
+
+    h2 {
+        color: $colorTexto;
+    }
+
+    p {
+        color: $colorPrincipal;
+    }
+
+    @if $fondo == white {
+        border: 1px solid $colorPrincipal;
+    } @else {
+        border: 3px solid red;
+    }
+}

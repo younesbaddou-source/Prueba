@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'mixin';
+
+@import 'funciones';
+
+.body {
+    color: $colorPrincipal;
+    background-color: $colorFondo;
+}
+
+.header {
+    color: $colorTexto;
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+.tarea {
+    @include tarjeta;
+}
+
+.aviso {
+    @include tarjeta(yellow);
+}
+
+@for $i from 1 through 4 {
+    .margen-#{$i} {
+        margin: espacio($i);
+    }
+}
