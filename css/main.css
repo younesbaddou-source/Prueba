@@ -1,5 +1,5 @@
 .body {
-  color: rgb(47, 255, 0);
+  color: rgb(0, 255, 213);
   background-color: rgb(170, 161, 108);
 }
 
@@ -21,7 +21,10 @@
   color: blue;
 }
 .tarea p {
-  color: rgb(47, 255, 0);
+  color: rgb(0, 255, 213);
+}
+.tarea {
+  border: 1px solid rgb(0, 255, 213);
 }
 
 .aviso {
@@ -35,5 +38,24 @@
   color: blue;
 }
 .aviso p {
-  color: rgb(47, 255, 0);
+  color: rgb(0, 255, 213);
+}
+.aviso {
+  border: 3px solid red;
+}
+
+.margen-1 {
+  margin: 20px;
+}
+
+.margen-2 {
+  margin: 40px;
+}
+
+.margen-3 {
+  margin: 60px;
+}
+
+.margen-4 {
+  margin: 80px;
 }

@@ -21,3 +21,8 @@
 .aviso{
     @include tarjeta(yellow);
 }   
+@for $i from 1 through 4{
+    .margen-#{$i}{
+        margin: espacio($i);
+    }
+}

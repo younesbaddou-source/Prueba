@@ -10,4 +10,8 @@
     p{
         color:$colorPrincipal;
     }
+    @if $fondo == white{
+        border: 1px solid $colorPrincipal;
+    }@else{
+        border: 3px solid red}
 }
