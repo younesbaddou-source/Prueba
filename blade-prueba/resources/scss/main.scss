@@ -1,7 +1,7 @@
 @import 'variables';
+@import 'funciones';
 @import 'mixin';
 
-@import 'funciones';
 
 .body {
     color: $colorPrincipal;
@@ -28,4 +28,18 @@
     .margen-#{$i} {
         margin: espacio($i);
     }
+}
+.icon {
+    width: 20px;
+    height: 20px;
+
+    &--check {
+        color: green;
+    }
+    &--x {
+        color: red;
+        width: 32px;
+        height: 32px;
+    }
+    
 }

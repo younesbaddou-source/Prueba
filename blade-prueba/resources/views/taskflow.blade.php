@@ -8,17 +8,20 @@
         <div class="tarea">
             <h2>Estudiar SCSS</h2>
             <p>Entender variables y anidamiento</p>
+            <svg class="icon icon--check"><use xlink:href="#icon-check"></use></svg>
             <span class="fecha">13/11/2026</span>
         </div>
 
         <div class="tarea">
             <h2>Estudiar JS</h2>
             <p>Entender split, if y bucles</p>
+            <svg class="icon icon--x"><use xlink:href="#icon-x"></use></svg>
             <span class="fecha">17/11/2026</span>
         </div>
         <div class="aviso">
             <h2>Estudiar JS</h2>
             <p>Entender split, if y bucles</p>
+            <svg class="icon icon--mas"><use xlink:href="#icon-mas"></use></svg>
             <span class="fecha">17/11/2026</span>
         </div>
         <div class="tarea margen-3">

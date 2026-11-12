@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title ></title>
-    @yield('title', 'Mini TaskFlow')
+    <title >
+        @yield('title', 'Mini TaskFlow')
+    </title>
+    
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
 <body class="body">
