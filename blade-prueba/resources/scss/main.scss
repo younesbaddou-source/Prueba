@@ -1,7 +1,7 @@
 @import 'variables';
 @import 'funciones';
 @import 'mixin';
-
+@import 'botones';
 
 .body {
     color: $colorPrincipal;
@@ -52,5 +52,16 @@ $estados: (ok, aviso, error);
         @if $t == ok { background-color: green; }
         @else if $t == aviso { background-color: yellow; }
         @else { background-color: red; }
+    }
+}
+.btn-ok{
+    @include boton(green);
+}
+.btn-error{
+    @include boton(red, 20px);
+}
+@for $i  from 1 through 3{
+    .ancho-#{$i} {
+        width: $i * 100px;
     }
 }

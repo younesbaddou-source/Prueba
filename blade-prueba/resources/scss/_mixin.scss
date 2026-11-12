@@ -19,3 +19,21 @@
         border: 3px solid red;
     }
 }
+
+@mixin boton($fondo, $radio:6px){
+    color: white;
+    border: none;
+    font-family: $fuente;
+    padding: rem(10px) rem(20px);
+    border-radius: $radio;
+    background-color: $fondo;
+
+    &:hover {
+        opacity: 0.8;
+    }
+    @if $fondo== red{
+        font-weight: bold;
+    }@else{
+        font-weight: normal;
+    }
+}
