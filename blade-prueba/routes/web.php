@@ -6,5 +6,5 @@ Route::get('/', function () {
     return view('taskflow');
 });
 Route::get('/examen', function () {
-    return view('examen');
+    return view('examen.examen');
 });
