@@ -92,7 +92,7 @@
   color: white;
   border: none;
   font-family: "Arial", sans-serif;
-  padding: calc(0.625px * 1rem) calc(1.25px * 1rem);
+  padding: 0.625rem 1.25rem;
   border-radius: 6px;
   background-color: green;
 }
@@ -107,7 +107,7 @@
   color: white;
   border: none;
   font-family: "Arial", sans-serif;
-  padding: calc(0.625px * 1rem) calc(1.25px * 1rem);
+  padding: 0.625rem 1.25rem;
   border-radius: 20px;
   background-color: red;
 }
