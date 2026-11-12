@@ -1,4 +1,5 @@
 @extends('layouts.app')
+    @section('title', 'Mini TaskFlow')
     @section('content')
     <header class="header">
         <h1>Mini TaskFlow</h1>
@@ -25,6 +26,21 @@
             <span class="fecha">17/11/2026</span>
         </div>
         <div class="tarea margen-3">
+            <h2>Estudiar JS</h2>
+            <p>Entender split, if y bucles</p>
+            <span class="fecha">17/11/2026</span>
+        </div>
+        <div class="tarea msg-ok">
+            <h2>Estudiar JS</h2>
+            <p>Entender split, if y bucles</p>
+            <span class="fecha">17/11/2026</span>
+        </div>
+        <div class="tarea msg-aviso">
+            <h2>Estudiar JS</h2>
+            <p>Entender split, if y bucles</p>
+            <span class="fecha">17/11/2026</span>
+        </div>
+        <div class="tarea msg-error">
             <h2>Estudiar JS</h2>
             <p>Entender split, if y bucles</p>
             <span class="fecha">17/11/2026</span>

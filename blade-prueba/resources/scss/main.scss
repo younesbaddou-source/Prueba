@@ -43,3 +43,14 @@
     }
     
 }
+$estados: (ok, aviso, error);
+
+@for $i from 1 through length($estados) {
+    $t: nth($estados, $i);
+    .msg-#{$t} {
+        padding: espacio(1);
+        @if $t == ok { background-color: green; }
+        @else if $t == aviso { background-color: yellow; }
+        @else { background-color: red; }
+    }
+}

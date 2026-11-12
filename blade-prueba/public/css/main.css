@@ -73,4 +73,19 @@
   height: 32px;
 }
 
+.msg-ok {
+  padding: 20px;
+  background-color: green;
+}
+
+.msg-aviso {
+  padding: 20px;
+  background-color: yellow;
+}
+
+.msg-error {
+  padding: 20px;
+  background-color: red;
+}
+
 /*# sourceMappingURL=main.css.map */
