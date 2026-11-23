@@ -5,6 +5,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('taskflow');
 });
-Route::get('/examen', function () {
+Route::get('/examen/examen', function () {
     return view('examen.examen');
 });
