@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+	background-color:#DECC8C
+}
+
+h1 {
+    font-size: 26px;
+}
+
+
+#formulari {
+    margin-bottom: 20px;
+	
+}
+
+#entrada {
+    width: 550px;
+    padding: 6px;
+}
+
+#processar {
+    padding: 6px 14px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#control {
+    margin-top: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    min-height: 40px;
+	
+	margin-left:100px;
+	border:1px solid black;
+	width:500px;
+	height:300px;
+}
+
+.verd {
+    color: green;
+    font-weight: bold;
+}
+
+.vermell {
+    color: red;
+    font-weight: bold;
+}
